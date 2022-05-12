@@ -59,12 +59,13 @@ body {
 
 .dynamic-txt li::after {
     content: "";
+    font-weight: 700;
     position: absolute;
     left: 0;
     background-color: #071d2d;
     height: 100%;
     width: 100%;
-    border-left: 2px solid #ff3333;
+    border-left: 7px solid #ff3333;
     animation: typing 3s steps(10) infinite;
 }
 
